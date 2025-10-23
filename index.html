@@ -1,1 +1,301 @@
-Not Found
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thiết Bị Chăn Nuôi Minh Phát - Giải pháp tiết kiệm cho nông hộ</title>
+<meta name="description" content="Thiết Bị Chăn Nuôi Minh Phát — giải pháp tiết kiệm chi phí cho người chăn nuôi lợn: máng ăn, bình bú, đèn úm, xi lanh, thẻ tai... Hướng dẫn kỹ thuật chăn nuôi nái đẻ.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#2F7D32;
+  --brown:#8B6A4B;
+  --bg:#FAFAF7;
+  --text:#1B1B18;
+  --muted:#6B6B62;
+  --card:#FFFFFF;
+  --accent:#3C9A40;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;font-family:"Inter",system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--green);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:1100px;margin:0 auto;padding:0 16px}
+header{position:sticky;top:0;z-index:50;background:rgba(250,250,247,.9);backdrop-filter:blur(10px);border-bottom:1px solid #eee}
+.nav{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+.brand{display:flex;align-items:center;gap:12px;font-weight:800;color:var(--green);font-size:20px}
+.brand .dot{width:12px;height:12px;border-radius:999px;background:var(--green)}
+.nav a.btn{background:var(--green);color:#fff;padding:10px 14px;border-radius:12px;font-weight:600}
+.nav .links{display:flex;gap:14px;align-items:center}
+.hero{background:linear-gradient(120deg, rgba(47,125,50,.08), rgba(139,106,75,.08));padding:64px 0 48px 0;border-bottom:1px solid #eee}
+.hero .h1{font-size:36px;line-height:1.2;margin:0 0 12px 0;font-weight:800;color:#1f2a1f}
+.hero p{margin:0 0 20px 0;color:var(--muted)}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center}
+.card{background:var(--card);border:1px solid #eee;border-radius:18px;box-shadow:0 10px 25px rgba(0,0,0,.04)}
+.card.pad{padding:18px}
+.badge{display:inline-block;background:#EAF5EB;color:var(--green);padding:6px 10px;border-radius:999px;font-weight:600;font-size:12px;border:1px solid #D6ECD8}
+.grid{display:grid;gap:16px}
+.grid.cols-3{grid-template-columns:repeat(3,1fr)}
+.grid.cols-2{grid-template-columns:repeat(2,1fr)}
+.grid.cols-4{grid-template-columns:repeat(4,1fr)}
+.btn{display:inline-block;background:var(--green);color:#fff;padding:12px 14px;border-radius:12px;font-weight:700;border:0}
+.btn.outline{background:#fff;color:var(--green);border:1px solid var(--green)}
+.section{padding:48px 0}
+.h2{font-size:26px;margin:0 0 8px 0;font-weight:800}
+.lead{color:var(--muted);margin-top:0}
+.product{display:flex;flex-direction:column;gap:8px;padding:16px}
+.product img{width:100%;height:170px;object-fit:cover;border-radius:14px;border:1px solid #eee;background:#f6f6f3}
+.product .title{font-weight:700}
+.kv{border-radius:18px;min-height:220px;display:flex;align-items:center;justify-content:center;background:
+linear-gradient(140deg, rgba(47,125,50,.13), rgba(139,106,75,.13)), url('https://images.unsplash.com/photo-1586769852836-bc069f19e1b2?q=80&w=1600&auto=format&fit=crop') center/cover}
+.kv h3{color:#fff;text-shadow:0 12px 40px rgba(0,0,0,.5);font-size:22px}
+.blog{display:flex;flex-direction:column;gap:10px;padding:16px}
+.blog h3{margin:0}
+.blog .meta{color:var(--muted);font-size:12px}
+footer{padding:36px 0;border-top:1px solid #eee;color:#555}
+.note{font-size:12px;color:var(--muted)}
+.tag{display:inline-block;padding:4px 8px;background:#F1EFE9;color:#5b4632;border:1px solid #e4dfd6;border-radius:999px;font-size:12px}
+/* Responsive */
+@media (max-width: 900px){
+  .row{grid-template-columns:1fr}
+  .grid.cols-4{grid-template-columns:repeat(2,1fr)}
+  .grid.cols-3{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width: 560px){
+  .grid.cols-3,.grid.cols-4{grid-template-columns:1fr}
+  .hero .h1{font-size:28px}
+}
+</style>
+<script>
+function scrollToId(id){document.getElementById(id)?.scrollIntoView({behavior:"smooth"});}
+</script>
+<!-- JSON-LD basic schema -->
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "Organization",
+ "name": "Thiết Bị Chăn Nuôi Minh Phát",
+ "url": "https://example.com",
+ "sameAs": ["https://shopee.vn/ten_gian_hang","https://facebook.com/tenpage"],
+ "logo": "https://example.com/logo.png"
+}
+</script>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand"><span class="dot"></span> Minh Phát Chăn Nuôi</div>
+    <div class="links">
+      <a href="#home">Trang chủ</a>
+      <a href="#products">Sản phẩm</a>
+      <a href="#articles">Bài viết</a>
+      <a href="#contact" class="btn">Liên hệ</a>
+    </div>
+  </div>
+</header>
+
+<main id="home" class="hero">
+  <div class="container">
+    <div class="row">
+      <div class="card pad">
+        <span class="badge">Giải pháp tiết kiệm cho nông hộ</span>
+        <h1 class="h1">Thiết bị chăn nuôi lợn <br> bền bỉ – dễ dùng – tiết kiệm chi phí</h1>
+        <p>Chọn lọc các thiết bị cốt lõi: <strong>máng ăn</strong>, <strong>bình bú</strong>, <strong>đèn úm</strong>, <strong>xi lanh tiêm</strong>, <strong>thẻ tai</strong>… kèm hướng dẫn lắp đặt/ sử dụng thực chiến, giúp giảm hao hụt và rút ngắn thời gian chăm sóc.</p>
+        <div style="display:flex;gap:12px;margin-top:12px">
+          <a class="btn" href="#products">Xem sản phẩm</a>
+          <a class="btn outline" href="#articles">Đọc bài hướng dẫn</a>
+        </div>
+        <p class="note" style="margin-top:12px">Màu chủ đạo: nâu đất & xanh lá – thân thiện người nông dân Việt.</p>
+      </div>
+      <div class="kv card"><h3>Chuồng sạch – ấm – khô • Heo con bú đủ sữa đầu</h3></div>
+    </div>
+  </div>
+</main>
+
+<section id="products" class="section">
+  <div class="container">
+    <h2 class="h2">Sản phẩm nổi bật</h2>
+    <p class="lead">Danh sách 8 sản phẩm tiêu biểu (có thể thay ảnh & gắn link Shopee).</p>
+    <div class="grid cols-4">
+      
+      <article class="product card">
+        <img alt="Máng ăn tự động inox 304" src="https://images.unsplash.com/photo-1544989164-31dc3c645987?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Máng ăn tự động Inox 304</div>
+        <div class="tag">Giảm hao hụt 15–20%</div>
+        <small>Chống gỉ, dễ vệ sinh, lắp trong 5 phút.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+      <article class="product card">
+        <img alt="Bình bú heo con 7–10L" src="https://images.unsplash.com/photo-1567413520128-b7c7f2c2bb54?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Bình bú heo con 7–10L (6–9 núm)</div>
+        <div class="tag">Nuôi đồng đều</div>
+        <small>Nhựa dày, chịu nhiệt; kèm hướng dẫn treo & vệ sinh.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+      <article class="product card">
+        <img alt="Đèn úm hồng ngoại 75W" src="https://images.unsplash.com/photo-1516383607781-913a19294fd1?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Đèn úm hồng ngoại 75W</div>
+        <div class="tag">Ấm nhanh – tiết kiệm</div>
+        <small>Giữ nhiệt ổn định, giảm tiêu chảy sơ sinh.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+      <article class="product card">
+        <img alt="Xi lanh tự động 2ml" src="https://images.unsplash.com/photo-1516571137133-1be29e37143a?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Xi lanh tự động 2 ml</div>
+        <div class="tag">Tiêm nhanh – chuẩn liều</div>
+        <small>Tự hút thuốc, thân inox – dễ khử trùng.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+      <article class="product card">
+        <img alt="Thẻ tai heo Allflex" src="https://images.unsplash.com/photo-1520509414578-d9cbf09933a1?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Thẻ tai quản lý đàn</div>
+        <div class="tag">Theo dõi – tiêm phòng</div>
+        <small>Nhựa TPU bền, đánh dấu cá thể chính xác.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+      <article class="product card">
+        <img alt="Núm uống nước heo Inox" src="https://images.unsplash.com/photo-1581594693700-2e930197a3d1?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Núm uống nước Inox</div>
+        <div class="tag">Khô chuồng – tiết kiệm nước</div>
+        <small>Tự ngắt khi heo bỏ miệng, chống thất thoát.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+      <article class="product card">
+        <img alt="Tấm lót sàn nhựa chuồng heo" src="https://images.unsplash.com/photo-1557538104-3038d613fab5?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Tấm nhựa lót sàn 40×55 / 40×110</div>
+        <div class="tag">Chuồng khô – sạch</div>
+        <small>Nhựa nguyên sinh bền, ghép nhanh bằng ngàm.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+      <article class="product card">
+        <img alt="Khoá đồng tiền cửa chuồng" src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop">
+        <div class="title">Khoá đồng tiền cửa chuồng</div>
+        <div class="tag">An toàn chuồng trại</div>
+        <small>Chốt tự động cho cửa chuồng heo/gà, dễ lắp.</small>
+        <a class="btn" href="https://shopee.vn" target="_blank" rel="nofollow noopener">Mua trên Shopee</a>
+      </article>
+
+    </div>
+    <p class="note" style="margin-top:14px">*Thay ảnh & gắn link sản phẩm Shopee/Minh Phát để bán trực tiếp.</p>
+  </div>
+</section>
+
+<section id="articles" class="section" style="background:#fff">
+  <div class="container">
+    <h2 class="h2">Bài viết kỹ thuật (kiểu Thế Giới Di Động)</h2>
+    <p class="lead">Hướng dẫn thực chiến – lồng ghép sản phẩm liên quan để tăng chuyển đổi.</p>
+
+    <div class="grid cols-3">
+      <article class="blog card">
+        <h3>Checklist phòng đẻ: Chuẩn bị chuồng nái đẻ trong 24 giờ</h3>
+        <div class="meta">#chuồng_đẻ #đèn_úm #tấm_lót</div>
+        <p><strong>5 việc bắt buộc:</strong> (1) Khử trùng & làm khô ô chuồng; (2) Kiểm tra đèn/ máy sưởi, đảm bảo bề mặt úm ≥ 35 °C cho heo con vừa sinh; (3) Trải tấm lót khô, không trơn; (4) Chuẩn bị dụng cụ thú y, găng, dây buộc; (5) Thiết lập nguồn nước uống cho nái & bầy con.</p>
+        <p><em>Gợi ý sản phẩm:</em> Chuồng nái đẻ, Đèn/ máy sưởi, Tấm lót sàn, Núm/ cây uống, Dụng cụ thú y.</p>
+        <a class="btn outline" href="#products">Xem sản phẩm liên quan</a>
+      </article>
+
+      <article class="blog card">
+        <h3>Sữa đầu quan trọng thế nào? Cố định đầu vú & ghép ổ đúng kỹ thuật</h3>
+        <div class="meta">#sữa_đầu #ghép_ổ #máng_tập_ăn</div>
+        <p>Heo con cần bú sữa đầu ≤ 1 giờ sau sinh để nhận kháng thể. Con nhỏ/ yếu ưu tiên vú ngực; con lớn/ khỏe dùng vú sau. Ghép ổ làm buổi tối, đồng mùi, cùng tuổi để hạn chế cắn nhau.</p>
+        <p><em>Gợi ý sản phẩm:</em> Máng tập ăn 5 cánh/ cai sữa 30 kg, Đèn úm, Bình bú heo con.</p>
+        <a class="btn outline" href="#products">Xem sản phẩm liên quan</a>
+      </article>
+
+      <article class="blog card">
+        <h3>Tiêm sắt cho heo con: Lịch – liều – lỗi thường gặp</h3>
+        <div class="meta">#tiêm_sắt #dụng_cụ_thú_y #đèn_úm</div>
+        <p>Tiêm Dextran Fe cho heo con vào ngày 3 & 10 (tham vấn thú y). Kết hợp giữ chuồng ấm–khô để hạn chế tiêu chảy. Dùng xi lanh tự động 2 ml để chuẩn liều và tiết kiệm thời gian.</p>
+        <p><em>Gợi ý sản phẩm:</em> Xi lanh tự động 2 ml, Đèn/ máy sưởi, Tấm lót.</p>
+        <a class="btn outline" href="#products">Xem sản phẩm liên quan</a>
+      </article>
+    </div>
+
+    <div class="grid cols-3" style="margin-top:16px">
+      <article class="blog card">
+        <h3>Quản lý môi trường sau đẻ: 22–24 °C, tránh gió lùa, dọn phân 2 lần/ngày</h3>
+        <div class="meta">#môi_trường #làm_mát #air_inlet</div>
+        <p>Duy trì 22–24 °C trong phòng đẻ, heo con nằm thoải mái dưới đèn úm. Giảm gió lùa bằng cửa lấy gió & bạt che. Vệ sinh đều đặn giúp giảm mầm bệnh và mùi.</p>
+        <p><em>Gợi ý sản phẩm:</em> Cửa lấy gió (air inlet), Tủ điều khiển quạt, Bạt/ rèm, Đèn úm.</p>
+        <a class="btn outline" href="#products">Xem sản phẩm liên quan</a>
+      </article>
+
+      <article class="blog card">
+        <h3>10 bước quản lý nái đẻ thành công (kèm dụng cụ)</h3>
+        <div class="meta">#quy_trình #checklist #chuồng_đẻ</div>
+        <p>Từ chuẩn bị chuồng – hỗ trợ đẻ – sưởi & làm khô – bú sữa đầu – ghép ổ – theo dõi heo còi bệnh – đánh giá nái sau đẻ… Mỗi bước gắn với bộ dụng cụ phù hợp để thao tác nhanh & an toàn.</p>
+        <p><em>Gợi ý sản phẩm:</em> Chuồng đẻ, Đèn úm, Núm uống, Tấm lót, Dụng cụ thú y.</p>
+        <a class="btn outline" href="#products">Xem sản phẩm liên quan</a>
+      </article>
+
+      <article class="blog card">
+        <h3>Mẹo tăng tỷ lệ sống heo con tuần đầu</h3>
+        <div class="meta">#heo_con #tuần_đầu #giảm_hao_hụt</div>
+        <p>Làm khô nhanh, ủ ấm đúng điểm, chống đè bằng vách ngăn hợp lý; tập ăn sớm; ghi chép theo cá thể để xử lý kịp thời.</p>
+        <p><em>Gợi ý sản phẩm:</em> Đèn úm, Tấm lót, Máng tập ăn, Thẻ tai.</p>
+        <a class="btn outline" href="#products">Xem sản phẩm liên quan</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <h2 class="h2">Liên hệ</h2>
+    <p class="lead">Tư vấn miễn phí – Giao hàng toàn quốc</p>
+    <div class="grid cols-2">
+      <div class="card pad">
+        <p><strong>Điện thoại:</strong> 09xx.xxx.xxx</p>
+        <p><strong>Facebook:</strong> <a href="https://facebook.com/tenpage" target="_blank" rel="nofollow noopener">facebook.com/tenpage</a></p>
+        <p><strong>Shopee:</strong> <a href="https://shopee.vn/ten_gian_hang" target="_blank" rel="nofollow noopener">shopee.vn/ten_gian_hang</a></p>
+        <p class="note">*Điền thông tin thật của bạn để khách liên hệ dễ dàng.</p>
+        <div style="display:flex;gap:10px;margin-top:6px">
+          <a class="btn" href="tel:09xxxxxxxx">Gọi ngay</a>
+          <a class="btn outline" href="#home">Về đầu trang</a>
+        </div>
+      </div>
+      <div class="card pad">
+        <form onsubmit="event.preventDefault();alert('Cám ơn! Chúng tôi sẽ liên hệ sớm.');">
+          <div style="display:grid;gap:10px">
+            <label>Tên của bạn
+              <input required style="width:100%;padding:10px;border:1px solid #ddd;border-radius:10px" placeholder="Nguyễn Văn A">
+            </label>
+            <label>Số điện thoại
+              <input required style="width:100%;padding:10px;border:1px solid #ddd;border-radius:10px" placeholder="09xx xxx xxx">
+            </label>
+            <label>Nội dung
+              <textarea rows="4" style="width:100%;padding:10px;border:1px solid #ddd;border-radius:10px" placeholder="Tôi cần tư vấn về..."></textarea>
+            </label>
+            <button class="btn" type="submit">Gửi yêu cầu</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+      <div>&copy; 2025 Minh Phát Chăn Nuôi — All rights reserved.</div>
+      <div style="display:flex;gap:10px">
+        <a href="#home">Trang chủ</a>
+        <a href="#products">Sản phẩm</a>
+        <a href="#articles">Bài viết</a>
+        <a href="#contact">Liên hệ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
